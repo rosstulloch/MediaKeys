@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406D55AA14D90188000A1D7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D55A914D90188000A1D7E /* Cocoa.framework */; };
+		406D55B414D90188000A1D7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 406D55B214D90188000A1D7E /* InfoPlist.strings */; };
+		406D55B614D90188000A1D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55B514D90188000A1D7E /* main.m */; };
+		406D55BA14D90188000A1D7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 406D55B814D90188000A1D7E /* Credits.rtf */; };
+		406D55BD14D90188000A1D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55BC14D90188000A1D7E /* AppDelegate.m */; };
+		406D55C014D90188000A1D7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406D55BE14D90188000A1D7E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		406D55A514D90188000A1D7E /* MediaKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D55A914D90188000A1D7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		406D55AC14D90188000A1D7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		406D55AD14D90188000A1D7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		406D55AE14D90188000A1D7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		406D55B114D90188000A1D7E /* MediaKeys-Info.plist */ = {isa = PBXFileReference; path = "MediaKeys-Info.plist"; sourceTree = "<group>"; };
+		406D55B314D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		406D55B514D90188000A1D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		406D55B714D90188000A1D7E /* MediaKeys-Prefix.pch */ = {isa = PBXFileReference; path = "MediaKeys-Prefix.pch"; sourceTree = "<group>"; };
+		406D55B914D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		406D55BB14D90188000A1D7E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		406D55BC14D90188000A1D7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		406D55BF14D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406D55A214D90188000A1D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D55AA14D90188000A1D7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406D559A14D90188000A1D7E = {
+			isa = PBXGroup;
+			children = (
+				406D55AF14D90188000A1D7E /* MediaKeys */,
+				406D55A814D90188000A1D7E /* Frameworks */,
+				406D55A614D90188000A1D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406D55A614D90188000A1D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406D55A514D90188000A1D7E /* MediaKeys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406D55A814D90188000A1D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406D55A914D90188000A1D7E /* Cocoa.framework */,
+				406D55AB14D90188000A1D7E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		406D55AB14D90188000A1D7E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406D55AC14D90188000A1D7E /* AppKit.framework */,
+				406D55AD14D90188000A1D7E /* CoreData.framework */,
+				406D55AE14D90188000A1D7E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		406D55AF14D90188000A1D7E /* MediaKeys */ = {
+			isa = PBXGroup;
+			children = (
+				406D55BB14D90188000A1D7E /* AppDelegate.h */,
+				406D55BC14D90188000A1D7E /* AppDelegate.m */,
+				406D55BE14D90188000A1D7E /* MainMenu.xib */,
+				406D55B014D90188000A1D7E /* Supporting Files */,
+			);
+			path = MediaKeys;
+			sourceTree = "<group>";
+		};
+		406D55B014D90188000A1D7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406D55B114D90188000A1D7E /* MediaKeys-Info.plist */,
+				406D55B214D90188000A1D7E /* InfoPlist.strings */,
+				406D55B514D90188000A1D7E /* main.m */,
+				406D55B714D90188000A1D7E /* MediaKeys-Prefix.pch */,
+				406D55B814D90188000A1D7E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406D55A414D90188000A1D7E /* MediaKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D55C314D90188000A1D7E /* Build configuration list for PBXNativeTarget "MediaKeys" */;
+			buildPhases = (
+				406D55A114D90188000A1D7E /* Sources */,
+				406D55A214D90188000A1D7E /* Frameworks */,
+				406D55A314D90188000A1D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeys;
+			productName = MediaKeys;
+			productReference = 406D55A514D90188000A1D7E /* MediaKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406D559C14D90188000A1D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 406D559F14D90188000A1D7E /* Build configuration list for PBXProject "MediaKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 406D559A14D90188000A1D7E;
+			productRefGroup = 406D55A614D90188000A1D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406D55A414D90188000A1D7E /* MediaKeys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406D55A314D90188000A1D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D55B414D90188000A1D7E /* InfoPlist.strings in Resources */,
+				406D55BA14D90188000A1D7E /* Credits.rtf in Resources */,
+				406D55C014D90188000A1D7E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406D55A114D90188000A1D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D55B614D90188000A1D7E /* main.m in Sources */,
+				406D55BD14D90188000A1D7E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		406D55B214D90188000A1D7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D55B314D90188000A1D7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		406D55B814D90188000A1D7E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D55B914D90188000A1D7E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		406D55BE14D90188000A1D7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D55BF14D90188000A1D7E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406D55C114D90188000A1D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		406D55C214D90188000A1D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		406D55C414D90188000A1D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaKeys/MediaKeys-Prefix.pch";
+				INFOPLIST_FILE = "MediaKeys/MediaKeys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		406D55C514D90188000A1D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaKeys/MediaKeys-Prefix.pch";
+				INFOPLIST_FILE = "MediaKeys/MediaKeys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406D559F14D90188000A1D7E /* Build configuration list for PBXProject "MediaKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D55C114D90188000A1D7E /* Debug */,
+				406D55C214D90188000A1D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D55C314D90188000A1D7E /* Build configuration list for PBXNativeTarget "MediaKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D55C414D90188000A1D7E /* Debug */,
+				406D55C514D90188000A1D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406D559C14D90188000A1D7E /* Project object */;
+}
