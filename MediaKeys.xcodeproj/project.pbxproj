@@ -13,6 +13,16 @@
 		406D55BA14D90188000A1D7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 406D55B814D90188000A1D7E /* Credits.rtf */; };
 		406D55BD14D90188000A1D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55BC14D90188000A1D7E /* AppDelegate.m */; };
 		406D55C014D90188000A1D7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406D55BE14D90188000A1D7E /* MainMenu.xib */; };
+		406D55CE14D90640000A1D7E /* ZOTHotKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55CA14D90640000A1D7E /* ZOTHotKeys.m */; };
+		406D55CF14D90640000A1D7E /* HIDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55CC14D90640000A1D7E /* HIDDevice.m */; };
+		406D55D214D9118A000A1D7E /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55D114D9118A000A1D7E /* PreferencesWindowController.m */; };
+		406D55D414D914E6000A1D7E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D55D314D914E6000A1D7E /* Carbon.framework */; };
+		406D55D614D9151D000A1D7E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D55D514D9151D000A1D7E /* IOKit.framework */; };
+		406D55E014D92101000A1D7E /* KeyCaptureTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D55DF14D92101000A1D7E /* KeyCaptureTextView.m */; };
+		40C0082C14D9E683006D23FC /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0082A14D9E683006D23FC /* SRKeyCodeTransformer.m */; };
+		40C0083014D9E6E1006D23FC /* SRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0082F14D9E6E1006D23FC /* SRCommon.m */; };
+		40EB59F615E3530C0094CBAF /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 40EB59F515E3530C0094CBAF /* Icon.icns */; };
+		40F9E7391F97F45200963A3A /* To Do.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40F9E7381F97F45200963A3A /* To Do.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +31,31 @@
 		406D55AC14D90188000A1D7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		406D55AD14D90188000A1D7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		406D55AE14D90188000A1D7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		406D55B114D90188000A1D7E /* MediaKeys-Info.plist */ = {isa = PBXFileReference; path = "MediaKeys-Info.plist"; sourceTree = "<group>"; };
+		406D55B114D90188000A1D7E /* MediaKeys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaKeys-Info.plist"; sourceTree = "<group>"; };
 		406D55B314D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		406D55B514D90188000A1D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		406D55B714D90188000A1D7E /* MediaKeys-Prefix.pch */ = {isa = PBXFileReference; path = "MediaKeys-Prefix.pch"; sourceTree = "<group>"; };
+		406D55B714D90188000A1D7E /* MediaKeys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaKeys-Prefix.pch"; sourceTree = "<group>"; };
 		406D55B914D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		406D55BB14D90188000A1D7E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		406D55BB14D90188000A1D7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		406D55BC14D90188000A1D7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		406D55BF14D90188000A1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		406D55CA14D90640000A1D7E /* ZOTHotKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOTHotKeys.m; sourceTree = "<group>"; };
+		406D55CB14D90640000A1D7E /* ZOTHotKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOTHotKeys.h; sourceTree = "<group>"; };
+		406D55CC14D90640000A1D7E /* HIDDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDDevice.m; sourceTree = "<group>"; };
+		406D55CD14D90640000A1D7E /* HIDDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDDevice.h; sourceTree = "<group>"; };
+		406D55D014D9118A000A1D7E /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		406D55D114D9118A000A1D7E /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		406D55D314D914E6000A1D7E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		406D55D514D9151D000A1D7E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		406D55DE14D92101000A1D7E /* KeyCaptureTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyCaptureTextView.h; sourceTree = "<group>"; };
+		406D55DF14D92101000A1D7E /* KeyCaptureTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyCaptureTextView.m; sourceTree = "<group>"; };
+		40C0082A14D9E683006D23FC /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		40C0082B14D9E683006D23FC /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		40C0082E14D9E6E1006D23FC /* SRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCommon.h; sourceTree = "<group>"; };
+		40C0082F14D9E6E1006D23FC /* SRCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCommon.m; sourceTree = "<group>"; };
+		40EB59F515E3530C0094CBAF /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		40F9E7371F97F2A000963A3A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40F9E7381F97F45200963A3A /* To Do.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "To Do.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406D55D614D9151D000A1D7E /* IOKit.framework in Frameworks */,
+				406D55D414D914E6000A1D7E /* Carbon.framework in Frameworks */,
 				406D55AA14D90188000A1D7E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +75,8 @@
 		406D559A14D90188000A1D7E = {
 			isa = PBXGroup;
 			children = (
+				40F9E7371F97F2A000963A3A /* README.md */,
+				40F9E7381F97F45200963A3A /* To Do.txt */,
 				406D55AF14D90188000A1D7E /* MediaKeys */,
 				406D55A814D90188000A1D7E /* Frameworks */,
 				406D55A614D90188000A1D7E /* Products */,
@@ -63,6 +94,8 @@
 		406D55A814D90188000A1D7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				406D55D514D9151D000A1D7E /* IOKit.framework */,
+				406D55D314D914E6000A1D7E /* Carbon.framework */,
 				406D55A914D90188000A1D7E /* Cocoa.framework */,
 				406D55AB14D90188000A1D7E /* Other Frameworks */,
 			);
@@ -82,9 +115,17 @@
 		406D55AF14D90188000A1D7E /* MediaKeys */ = {
 			isa = PBXGroup;
 			children = (
-				406D55BB14D90188000A1D7E /* AppDelegate.h */,
 				406D55BC14D90188000A1D7E /* AppDelegate.m */,
-				406D55BE14D90188000A1D7E /* MainMenu.xib */,
+				406D55BB14D90188000A1D7E /* AppDelegate.h */,
+				406D55D114D9118A000A1D7E /* PreferencesWindowController.m */,
+				406D55D014D9118A000A1D7E /* PreferencesWindowController.h */,
+				406D55DF14D92101000A1D7E /* KeyCaptureTextView.m */,
+				406D55DE14D92101000A1D7E /* KeyCaptureTextView.h */,
+				406D55CA14D90640000A1D7E /* ZOTHotKeys.m */,
+				406D55CB14D90640000A1D7E /* ZOTHotKeys.h */,
+				406D55CC14D90640000A1D7E /* HIDDevice.m */,
+				406D55CD14D90640000A1D7E /* HIDDevice.h */,
+				40C0083114D9E6E9006D23FC /* https://github.com/shortcutrecorder/shortcutrecorder */,
 				406D55B014D90188000A1D7E /* Supporting Files */,
 			);
 			path = MediaKeys;
@@ -93,6 +134,8 @@
 		406D55B014D90188000A1D7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				406D55BE14D90188000A1D7E /* MainMenu.xib */,
+				40EB59F515E3530C0094CBAF /* Icon.icns */,
 				406D55B114D90188000A1D7E /* MediaKeys-Info.plist */,
 				406D55B214D90188000A1D7E /* InfoPlist.strings */,
 				406D55B514D90188000A1D7E /* main.m */,
@@ -100,6 +143,17 @@
 				406D55B814D90188000A1D7E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40C0083114D9E6E9006D23FC /* https://github.com/shortcutrecorder/shortcutrecorder */ = {
+			isa = PBXGroup;
+			children = (
+				40C0082A14D9E683006D23FC /* SRKeyCodeTransformer.m */,
+				40C0082B14D9E683006D23FC /* SRKeyCodeTransformer.h */,
+				40C0082F14D9E6E1006D23FC /* SRCommon.m */,
+				40C0082E14D9E6E1006D23FC /* SRCommon.h */,
+			);
+			name = "https://github.com/shortcutrecorder/shortcutrecorder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +182,7 @@
 		406D559C14D90188000A1D7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 406D559F14D90188000A1D7E /* Build configuration list for PBXProject "MediaKeys" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -155,6 +209,8 @@
 				406D55B414D90188000A1D7E /* InfoPlist.strings in Resources */,
 				406D55BA14D90188000A1D7E /* Credits.rtf in Resources */,
 				406D55C014D90188000A1D7E /* MainMenu.xib in Resources */,
+				40F9E7391F97F45200963A3A /* To Do.txt in Resources */,
+				40EB59F615E3530C0094CBAF /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +223,12 @@
 			files = (
 				406D55B614D90188000A1D7E /* main.m in Sources */,
 				406D55BD14D90188000A1D7E /* AppDelegate.m in Sources */,
+				406D55CE14D90640000A1D7E /* ZOTHotKeys.m in Sources */,
+				406D55CF14D90640000A1D7E /* HIDDevice.m in Sources */,
+				406D55D214D9118A000A1D7E /* PreferencesWindowController.m in Sources */,
+				406D55E014D92101000A1D7E /* KeyCaptureTextView.m in Sources */,
+				40C0082C14D9E683006D23FC /* SRKeyCodeTransformer.m in Sources */,
+				40C0083014D9E6E1006D23FC /* SRCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,12 +266,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -220,8 +299,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -231,18 +313,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -250,10 +351,16 @@
 		406D55C414D90188000A1D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Ross Tulloch";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaKeys/MediaKeys-Prefix.pch";
 				INFOPLIST_FILE = "MediaKeys/MediaKeys-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zeroonetwenty.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +368,16 @@
 		406D55C514D90188000A1D7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Ross Tulloch";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaKeys/MediaKeys-Prefix.pch";
 				INFOPLIST_FILE = "MediaKeys/MediaKeys-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zeroonetwenty.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +401,7 @@
 				406D55C514D90188000A1D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
