@@ -430,7 +430,6 @@
             <connections>
                 <outlet property="_preferencesWindow" destination="547" id="558"/>
                 <outlet property="_statusItems" destination="573" id="585"/>
-                <outlet property="window" destination="371" id="532"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
