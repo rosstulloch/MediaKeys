@@ -12,7 +12,7 @@ Go to MediaKeys -> Preferences to configure the key mappings.
 Acknowledgements
 ---------------------
 
-MediaKeys uses ShortcutRecorder.
-https://github.com/shortcutrecorder/shortcutrecorder
-Copyright 2006-2007 Contributors. All rights reserved.
-Contributors: David Dauer, Jesper, Jamie Kirkpatrick, Andy Kim
+MediaKeys uses ShortcutRecorder.  
+https://github.com/shortcutrecorder/shortcutrecorder  
+Copyright 2006-2007 Contributors. All rights reserved.  
+Contributors: David Dauer, Jesper, Jamie Kirkpatrick, Andy Kim  
