@@ -1,2 +1,3 @@
 
 Update ShortcutRecorder.
+Fix warnings regarding ObjC method names.
