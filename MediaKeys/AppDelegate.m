@@ -82,8 +82,8 @@ static NSWindow* window;
 
 -(void)generateKeyPress:(NSInteger)key
 {
-    [_device postSystemDefineEvent:key: TRUE];
-	[_device postSystemDefineEvent:key: FALSE];
+    [_device postSystemDefineEvent:key buttonDown:TRUE];
+	[_device postSystemDefineEvent:key buttonDown:FALSE];
 }
 
 - (IBAction)hotKeyPress:(id)sender

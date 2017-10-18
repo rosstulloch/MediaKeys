@@ -129,7 +129,7 @@
 	return result;
 }
 
-- (kern_return_t) postKeyCodeEvent:(UInt16)keyCode:(Boolean)keyDown:(Boolean)isRepeat
+- (kern_return_t) postKeyCodeEvent:(UInt16)keyCode keyDown:(Boolean)keyDown isRepeat:(Boolean)isRepeat
 {
 	kern_return_t	result = KERN_SUCCESS;
 	NXEventData		event;
@@ -150,7 +150,7 @@
 	return result;
 }
 
-- (kern_return_t) postSystemDefineEvent:(UInt8)eventType:(Boolean)buttonDown
+- (kern_return_t) postSystemDefineEvent:(UInt8)eventType buttonDown:(Boolean)buttonDown
 {
 	kern_return_t	result = KERN_SUCCESS;
 	NXEventData		event;
@@ -310,7 +310,7 @@ input parameters:
 			negative value - scroll left
 			positive value - scroll right
 */
-- (kern_return_t) postScrollWheelEvent:(SInt16)dy:(SInt16)dx
+- (kern_return_t) postScrollWheelEvent:(SInt16)dy dx:(SInt16)dx
 {
 	kern_return_t	result = KERN_SUCCESS;
 	NXEventData		event;

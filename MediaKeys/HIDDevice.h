@@ -71,15 +71,15 @@
 }
 
 - (kern_return_t) findHIDSystem:(io_connect_t *)hidsys;			// find the HIDSystem interface.
-- (kern_return_t) postKeyCodeEvent:(UInt16)keyCode:(Boolean)keyDown:(Boolean)isRepeat;
+- (kern_return_t) postKeyCodeEvent:(UInt16)keyCode keyDown:(Boolean)keyDown isRepeat:(Boolean)isRepeat;
 - (kern_return_t) postModifierKeyCodeEvent:(UInt16)keyCode;
-- (kern_return_t) postSystemDefineEvent:(UInt8)eventType:(Boolean)buttonDown;
+- (kern_return_t) postSystemDefineEvent:(UInt8)eventType buttonDown:(Boolean)buttonDown;
 - (kern_return_t) postCursorMoveEvent:(int)x :(int)y;
 - (kern_return_t) postMouseButtonEvent:(Boolean)buttonDown;
 - (void) setCmdState:(Boolean)state;
 - (void) setShiftState:(Boolean)state;
 - (int) currFlagState;
 - (void) globalMouseLocation:(IOGPoint*)loc;
-- (kern_return_t) postScrollWheelEvent:(SInt16)dy:(SInt16)dx;
+- (kern_return_t) postScrollWheelEvent:(SInt16)dy dx:(SInt16)dx;
 
 @end
